@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<form method="post" action="miservidor.php">
+    <div>
+      <label for=”codigo postal”>Código postal:</label>
+      <input id=”codigo postal” type=”number”>
+    </div>
+    <div>
+      <label for=”ape1”>Primer apellido:</label>
+      <input id=”ape1” type=”text”>
+    </div>
+    <div>
+      <label for=”ape2”>Segundo apellido:</label>
+      <input id=”ape2” type=”text”>
+    </div>
+  <div>
+      <label for=”nivel de satisfaccion”>Nivel de satifacción:</label>
+      <select id=”satisfaciion”>
+        <option value=”1”>1</option>
+        <option value=”2”>2</option>
+        <option value=”3”>3</option>
+        <option value=”4”>4</option>
+        <option value=”5”>5</option>
+      </select>
+  </div>
+    <div>
+      <label for=”email”>Email:</label>
+      <input id=”email” type=”text”>
+   </div>
+  <div>
+    <label for=”puntos positivos”>Puntos positivos:</label>
+    <textarea id=”comentario”></textarea>
+  </div>   
+  <div>
+    <label for=”puntos negativos”>Puntos negativos:</label>
+    <textarea id=”comentario”></textarea>
+  </div>
+  <div>
+    <label for=”caracteristicas”>Características:</label>
+    <select id=”caracteristicas”>
+      <option value=”excelente”>Excelente</option>
+      <option value=”bueno”>Bueno</option>
+      <option value=”regular”>Regular</option>
+      <option value=”pesimo”>Pésimo</option>
+    </select>
+  </div>   
+ <input type=”submit” value=”Enviar”> 
+</form>
+</html>
